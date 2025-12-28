@@ -18,7 +18,7 @@ function AuthButtons() {
   }
 
   return (
-    <>
+    <div className="flex items-center gap-6">
       <Link
         href="/auth"
         className="flex items-center gap-2 px-4 py-2 text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-[#1F4FD8] transition-colors"
@@ -29,11 +29,11 @@ function AuthButtons() {
 
       <Link
         href="/auth"
-        className="w-full md:w-auto px-5 py-2.5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-sm font-semibold rounded-full hover:bg-slate-800 dark:hover:bg-slate-100 hover:shadow-lg hover:shadow-slate-900/20 transition-all active:scale-95 text-center flex justify-center"
+        className="w-full md:w-auto px-6 py-2.5 bg-[#0F172A] dark:bg-white text-white dark:text-slate-900 text-sm font-semibold rounded-full hover:bg-slate-800 dark:hover:bg-slate-100 hover:shadow-lg transition-all active:scale-95 text-center flex justify-center"
       >
         Get Started
       </Link>
-    </>
+    </div>
   );
 }
 
@@ -70,8 +70,8 @@ function HeaderContent() {
         <div className="flex items-center justify-between h-20">
 
           <Link href="/" className="flex items-center gap-2.5 group">
-            <span className="font-[Manrope] text-2xl text-slate-900 dark:text-white font-extrabold tracking-tight">
-              Rentit<span className="text-[#1F4FD8]">.</span>
+            <span className="font-[Proxima Nova] text-2xl text-blue-600 dark:text-white font-extrabold tracking-tight">
+              Rent<span className="text-yellow-500">it</span><span className="text-blue-600">.</span>
             </span>
           </Link>
 
